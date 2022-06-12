@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .flexbox{
+        display:flex;
+        background-color: aqua;
+        justify-content: center;
+        justify-content: space-evenly;
+        align-items: center;
+        /* flex-wrap: wrap; */
+        height: 500px;
+        /* flex-direction: column; */
+    }
+    .flexbox-item{
+        border: 1px solid;
+        width: 300px;
+        background-color: darkgoldenrod;
+    }
+    .fbi1{
+        height: 100px;
+        align-self: center;
+    }
+    .fbi2{
+        height: 200px;
+        align-self: flex-end;
+    }
+    .fbi3{
+        height: 150px;
+        align-self: flex-start ;
+    }
+</style>
+<body>
+    <div class="flexbox">
+        <div class="flexbox-item fbi1">Flexbox item1</div>
+        <div class="flexbox-item fbi2">Flexbox item 2</div>
+        <div class="flexbox-item fbi3">Flexbox item 3</div>
+
+
+    </div>
+</body>
+</html>
