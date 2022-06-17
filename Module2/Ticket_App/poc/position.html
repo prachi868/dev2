@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>position</title>
+</head>
+<style>
+   .parent{
+       background: pink;
+       padding: 20px;
+       /* position: relative; */
+       height: 200vh;
+    }
+    .child{
+        height: 80px;
+    }
+    .one{
+        background: blue;
+        /* position: relative; *//* top: 1px; */
+        /* left: 50px; */
+        /* position: fixed; */
+        /* top: 0px; */
+        /* left: 0px; */
+        position: sticky;
+        top: 2px;
+    }
+    .two{
+        background: light greenyellow;
+        background: beige;
+        /* position: absolute; */
+        /* top: 0px; */
+        /* left: 0px; */
+    }
+    .three{
+        background: blueviolet;
+    }
+</style>
+<body>
+    <div class="parent">
+        <div class="child one">
+                child1
+        </div>
+        <div class="child two">child2</div>
+        <div class="child three">child3</div>
+    </div>
+</body>
+</html>

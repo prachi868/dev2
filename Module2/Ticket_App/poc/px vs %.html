@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Px vs %</title>
+</head>
+<style>
+     .pixel{
+         height: 50px;
+         margin: 10px;
+         background: bisque;
+         width: 50px;
+    }
+    .percentage{
+        height: 50px;
+        margin: 10px;
+        background: aqua;
+        width: 50%;
+    }
+    .parent{
+        background: orange;
+        width: 300px;
+    }
+</style>
+<body>
+    <div class="pixel">pixel</div>
+    <div class="percentage">percentage</div>
+    <div class="parent">
+        <div class="pixel">pixel</div>
+        <div class="percentage">percentage</div>
+    </div>
+   
+</body>
+</html>
