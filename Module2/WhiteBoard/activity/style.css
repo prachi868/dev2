@@ -8,9 +8,18 @@
     background: lightgreen;
     height: 100px;
 }
+.tools-content{
+
+}
+.tool{
+
+}
+.tool img{
+    
+}
 .drawing-container{
 
 }
 #canvas{
-    background-color: aqua;
+    /* background-color: aqua; */
 }
